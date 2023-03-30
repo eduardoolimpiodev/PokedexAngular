@@ -2,6 +2,15 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font-weight: 400;
+	font: inherit;
+	vertical-align: baseline;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -20,6 +29,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+    font-weight: 400;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -45,4 +55,8 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+input {
+    outline: none;
 }
