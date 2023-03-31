@@ -1,7 +1,9 @@
+<ng-template ngFor let-pokemon [ngForOf] = "getAllPokemons">
+
 <a class="pokemon">
     <section class="pokemon__status">
     <h2>
-        Bulbasaur
+        {{ pokemon.name }}
     </h2>
 
     <ul>
@@ -13,6 +15,8 @@
         <img src="../../../assets/bg/pokemon__image.png" alt="Bulbasaur">   
     </section>
 </a>
+
+</ng-template>
 <!-- 
 <a class="pokemon">
     <section class="pokemon__status">
