@@ -7,8 +7,9 @@
     </h2>
 
     <ul>
-        <li>Grass</li>
-        <li>Poison</li>
+        <li *ngFor="let value of pokemon?.status?.types">
+            {{value?.type?.name}}
+        </li>
     </ul>
     </section>
     <section class="pokemon__image">
