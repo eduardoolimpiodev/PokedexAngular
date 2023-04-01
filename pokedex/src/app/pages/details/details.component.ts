@@ -15,7 +15,7 @@ export class DetailsComponent implements OnInit {
 
   public pokemon: any;
   public isLoading: boolean = false;
-
+  public apiError: boolean = false;
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -35,8 +35,11 @@ export class DetailsComponent implements OnInit {
     return forkJoin([pokemon, name]).subscribe(
       res => {
         this.pokemon = res;
+        this.isLoading = true;
+      },
+      error => {
+        this.apiError = true;
       }
     );
   }
-
 }
