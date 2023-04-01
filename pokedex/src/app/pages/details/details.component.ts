@@ -9,7 +9,8 @@ import { PokeApiService } from 'src/app/service/poke-api.service';
 })
 export class DetailsComponent implements OnInit {
 
-  private urlPokemon: string = 'https://pokeapi.co/api/v2/pokemon'
+  private urlPokemon: string = 'https://pokeapi.co/api/v2/pokemon';
+  private urlName : string = 'https://pokeapi.co/api/v2/pokemon-species';
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -24,7 +25,7 @@ export class DetailsComponent implements OnInit {
     
     const id = this.activatedRoute.snapshot.params['id'];
     const pokemon = this.pokeApiService.apiGetPokemon(`$this.urlPokemon/${id}`);
-    
+    const name = this.pokeApiService.apiGetPokemon(`$this.urlName/${id}`);
 
     return console.log(id);
   }
