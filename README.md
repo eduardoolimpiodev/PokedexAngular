@@ -8,7 +8,6 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="exemplo-image.png" alt="exemplo imagem">
 
 > Pokedex feita com TypeScript e Angular.
 
@@ -52,7 +51,8 @@ Para contribuir com <Pokedex Anbular v.1>, siga estas etapas:
 4. Envie para o branch original: `git push origin Pokedex Anbular v.1 / <main>`
 5. Crie a solicitação de pull.
 
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull]
+(https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## 🤝 Colaboradores
 
