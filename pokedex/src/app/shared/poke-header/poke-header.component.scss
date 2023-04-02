@@ -6,5 +6,11 @@
         justify-content: center;
         align-items: center;
         padding: rem-calc(40) 0;
+
+        .github{
+            position:absolute;
+            justify-content:flex-end;
+            margin-left: 1024px;
+        }
     }
 }
